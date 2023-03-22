@@ -1,0 +1,34 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ansi (1.5.0)
+    builder (3.2.4)
+    erubis (2.7.0)
+    minitest (5.18.0)
+    minitest-reporters (1.6.0)
+      ansi
+      builder
+      minitest (>= 5.0)
+      ruby-progressbar
+    rack (3.0.7)
+    rake (13.0.6)
+    ruby-progressbar (1.13.0)
+    sinatra (1.0)
+      rack (>= 1.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  erubis
+  minitest (~> 5.10)
+  minitest-reporters (~> 1.1)
+  rack
+  rake
+  sinatra
+
+RUBY VERSION
+   ruby 2.6.3p62
+
+BUNDLED WITH
+   2.4.8
